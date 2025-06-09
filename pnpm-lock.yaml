@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@iminiume/storybook-addon-tag-badges':
+        specifier: 'link:'
+        version: 'link:'
       '@storybook/icons':
         specifier: ^1.4.0
         version: 1.4.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)

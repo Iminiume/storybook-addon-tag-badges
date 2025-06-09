@@ -1,6 +1,6 @@
 {
-  "name": "storybook-addon-tag-badges",
-  "version": "0.0.0-semantically-released",
+  "name": "@iminiume/storybook-addon-tag-badges",
+  "version": "2.0.2",
   "description": "Display Storybook tags as badges in the sidebar and toolbar.",
   "keywords": [
     "storybook-addons",
@@ -11,10 +11,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sidnioulz/storybook-addon-tag-badges.git"
+    "url": "git+https://github.com/iminiume/storybook-addon-tag-badges.git"
+  },
+  "homepage": "https://github.com/iminiume/storybook-addon-tag-badges#readme",
+  "bugs": {
+    "url": "https://github.com/iminiume/storybook-addon-tag-badges/issues"
   },
   "type": "module",
-  "author": "Steve Dodier-Lazaro <sidnioulz@gmail.com>",
+  "author": "iminiume",
   "license": "MIT",
   "exports": {
     ".": {
@@ -67,6 +71,7 @@
     "test:coverage": "vitest --coverage"
   },
   "dependencies": {
+    "@iminiume/storybook-addon-tag-badges": "link:",
     "@storybook/icons": "^1.4.0"
   },
   "devDependencies": {
@@ -129,7 +134,6 @@
   },
   "publishConfig": {
     "access": "public",
-    "provenance": true,
     "registry": "https://registry.npmjs.org/"
   },
   "packageManager": "pnpm@10.7.0",
@@ -141,6 +145,6 @@
     "supportedFrameworks": [
       "supported-frameworks"
     ],
-    "icon": "https://raw.githubusercontent.com/Sidnioulz/storybook-addon-tag-badges/main/static/icon.png"
+    "icon": "https://raw.githubusercontent.com/iminiume/storybook-addon-tag-badges/main/static/icon.png"
   }
 }

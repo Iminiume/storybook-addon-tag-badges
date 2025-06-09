@@ -1,6 +1,6 @@
 import React from 'react'
 import { API_HashEntry, type StatusByTypeId } from '@storybook/types'
-import { experimental_useStatusStore } from 'storybook/manager-api'
+import { experimental_useStatusStore } from '@storybook/manager-api'
 
 import { Sidebar } from './components/Sidebar'
 
