@@ -1,5 +1,5 @@
 import React from 'react'
-import { addons } from 'storybook/manager-api'
+import { addons } from '@storybook/manager-api'
 import { API_HashEntry } from '@storybook/types'
 
 import tagBadges from './tagBadges'

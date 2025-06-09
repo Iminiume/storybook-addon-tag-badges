@@ -8,6 +8,8 @@ const config: StorybookConfig = {
     '@storybook/addon-docs',
     '@storybook/addon-essentials',
     '@storybook/addon-vitest',
+    '@storybook/theming',
+    '@storybook/manager-api',
   ],
   framework: {
     name: '@storybook/react-vite',

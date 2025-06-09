@@ -470,7 +470,7 @@ Next, adjust the manager to load config from that file:
 
 ```ts
 // .storybook/manager.ts
-import { addons } from 'storybook/manager-api'
+import { addons } from '@storybook/manager-api'
 import tagBadges from './tagBadges'
 
 addons.setConfig({ tagBadges })

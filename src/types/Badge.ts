@@ -1,6 +1,6 @@
 import type { TooltipMessage } from '@storybook/components'
-import type { HashEntry } from 'storybook/manager-api'
-import type { CSSObject } from 'storybook/theming'
+import type { HashEntry } from '@storybook/manager-api'
+import type { CSSObject } from '@storybook/theming'
 
 import { getTagParts, getTagPrefix, getTagSuffix } from '../utils/tag'
 

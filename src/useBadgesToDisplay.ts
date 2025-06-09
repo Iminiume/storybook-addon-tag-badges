@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { type API, useStorybookApi } from 'storybook/manager-api'
+import { type API, useStorybookApi } from '@storybook/manager-api'
 
 import { DisplayOutcome, shouldDisplay } from './utils/display'
 import { matchTags } from './utils/tag'

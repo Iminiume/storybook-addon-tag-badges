@@ -5,7 +5,7 @@ import { TagBadgeParameters } from '../types/TagBadgeParameters'
 import { BadgeOrBadgeFn } from '../types/Badge'
 import { defaultConfig } from '../defaultConfig'
 
-vi.mock('storybook/manager-api', () => ({
+vi.mock('@storybook/manager-api', () => ({
   useStorybookApi: vi.fn(() => ({
     resolveStory: vi.fn().mockImplementation((id) => {
       if (id === 'mock-component') {

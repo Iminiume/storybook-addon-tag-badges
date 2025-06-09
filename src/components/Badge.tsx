@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
-import type { HashEntry } from 'storybook/manager-api'
+import type { HashEntry } from '@storybook/manager-api'
 import { WithTooltip, TooltipMessage } from '@storybook/components'
-import { CSSObject, styled, useTheme } from 'storybook/theming'
+import { CSSObject, styled, useTheme } from '@storybook/theming'
 
 import type { Badge as BadgeConfigType, BadgeOrBadgeFn } from '../types/Badge'
 import { getTagParts, getTagPrefix, getTagSuffix } from '../utils/tag'
