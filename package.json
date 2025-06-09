@@ -1,6 +1,6 @@
 {
   "name": "@iminiume/storybook-addon-tag-badges",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Display Storybook tags as badges in the sidebar and toolbar.",
   "keywords": [
     "storybook-addons",
