@@ -1,5 +1,5 @@
 import type { Preview } from '@storybook/react-vite'
-import { themes } from 'storybook/theming'
+import { themes } from '@storybook/theming'
 
 import tagBadges from './tagBadges'
 import ThemeProvider from './ThemeProvider'
